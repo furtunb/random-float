@@ -6,6 +6,11 @@ HOW TO USE
 
 just use random_float() function
 
+
+DIFFERENCES WITH random.uniform()
+
+First of all in random.uniform() you need to give a, b values as an interval, but with random_float() you don't need to do that, you can give the integer interval(integer_min, integer_max) if you prefer to. Other difference is; with random_float() you can determine the length of the decimal side(min_decimal, max_decimal). 
+
 SPECIFICATIONS
 
 random_float uses integer_min, integer_max, min_decimal, max_decimal
